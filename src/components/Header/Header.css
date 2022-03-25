@@ -1,0 +1,21 @@
+.header-area {
+  background-color: #1c2b35;
+}
+.header-area .logo-area img {
+  width: 140px;
+}
+.header-area .main-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.header-area .main-menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px;
+  text-transform: uppercase;
+}
+.header-area .main-menu a:hover {
+  color: orange;
+}
