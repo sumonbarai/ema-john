@@ -10,10 +10,52 @@
   grid-gap: 20px;
 }
 .shop-area .card-area {
-  background-color: #ff9900;
+  background-color: #fce0b3;
   height: 100vh;
   position: sticky;
   top: 0px;
   right: 0;
   padding: 28px 20px;
+}
+.shop-area .card-area .card-title {
+  color: #1c2b35;
+  font-size: 25px;
+  text-transform: capitalize;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.shop-area .card-area p {
+  color: #2a414f;
+  font-size: 17px;
+  line-height: 20px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+.card-button-group {
+  margin-top: 57px;
+}
+.card-button-group button {
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  margin: 8px;
+  text-transform: capitalize;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+.card-button-group button span {
+  padding-right: 5px;
+}
+.card-button-group .clear-card {
+  background-color: #ff3030;
+}
+.card-button-group .review-order {
+  background-color: #ff9900;
 }
